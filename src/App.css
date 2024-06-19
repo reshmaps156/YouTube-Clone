@@ -1,0 +1,13 @@
+.brandName{
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  margin-top: -10px;
+}
+.superText{
+  font-weight: 100;
+  font-size: 10px;
+}
+.brandIcon{
+  width: 30px;
+  height: 30px;
+}
