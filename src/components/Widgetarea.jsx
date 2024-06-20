@@ -29,6 +29,7 @@ function Widgetarea() {
                     <MenuItem className=''><HomeSharpIcon className='me-2' /> Home </MenuItem>
                     <MenuItem> <img src="https://i.pinimg.com/originals/17/d2/18/17d21878c22fe49e7e4752eecaa36541.png" className='me-2' alt="" width={'30px'} />Shorts </MenuItem>
                     <MenuItem><SubscriptionsOutlinedIcon className='me-2' /> Subscriptions </MenuItem>
+                    <div className='seperation ms-3 m-2'></div>
                     <SubMenu label="You" className='fw-bolder'>
                         {/* <MenuItem> Pie charts </MenuItem>
                         <MenuItem> Line charts </MenuItem> */}
@@ -40,6 +41,7 @@ function Widgetarea() {
                     <MenuItem> <ScheduleOutlinedIcon className='me-3'/>Watch later </MenuItem>
                     <MenuItem><ThumbUpOffAltOutlinedIcon className='me-3'/> Liked videos </MenuItem>
                     <p className='ms-3 mt-3 fw-bold '>Subscriptions</p>
+                    <div className='seperation ms-3 m-2'></div>
                     <p className='ms-3 fw-bold '>Explore</p>
                     <MenuItem ><WhatshotOutlinedIcon  className='me-3'/>Trending</MenuItem>
                     <MenuItem><ShoppingBagOutlinedIcon  className='me-3'/> Shopping </MenuItem>
