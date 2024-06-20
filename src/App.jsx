@@ -6,6 +6,8 @@ import Home from './pages/Home'
 import History from './pages/History'
 import Watchlater from './pages/Watchlater'
 import Playlists from './pages/Playlists'
+import Widgetarea from './components/Widgetarea'
+
 
 
 function App() {
@@ -14,6 +16,7 @@ function App() {
   return (
     <>
       <Header/>
+      <Widgetarea/>
       <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/history' element={<History/>}/>

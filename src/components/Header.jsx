@@ -7,6 +7,7 @@ import VideoCallOutlinedIcon from '@mui/icons-material/VideoCallOutlined';
 import NotificationsNoneOutlinedIcon from '@mui/icons-material/NotificationsNoneOutlined';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import KeyboardVoiceIcon from '@mui/icons-material/KeyboardVoice';
+import './header.css'
 
 
 
@@ -34,9 +35,9 @@ function Header() {
                   <button className=' microPhone'><KeyboardVoiceIcon/></button>
             </div>
             <div className='d-flex headerRightIcons'>
-             <VideoCallOutlinedIcon className='me-3' fontSize='large'/>
-             <NotificationsNoneOutlinedIcon className='me-3' fontSize='large'/>
-             <AccountCircleIcon className='me-3' fontSize='large'/>
+             <VideoCallOutlinedIcon className='me-3 vidIcon' fontSize='large'/>
+             <NotificationsNoneOutlinedIcon className='me-3 notifigBell' fontSize='large'/>
+             <AccountCircleIcon className='me-3 profileIcon' fontSize='large'/>
             </div>
             
          
