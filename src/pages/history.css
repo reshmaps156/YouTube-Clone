@@ -1,0 +1,16 @@
+.shortsIcon{
+    width: 15px;
+}
+/* .asideRight{
+    display: flex;
+    flex-direction: column;
+    
+    
+} */
+ .borderDiv{
+    width: 100%;
+    border-bottom: 1px solid rgba(183, 183, 183, 0.895);
+ }
+ .smallText{
+    font-size: 12px;
+ }
