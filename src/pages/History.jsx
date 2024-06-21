@@ -1,6 +1,7 @@
 import React from 'react'
 import Widgetarea from '../components/Widgetarea'
 
+
 function History() {
   return (
     <>
