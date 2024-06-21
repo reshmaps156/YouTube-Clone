@@ -2,3 +2,16 @@
     width: 90%;
     border-bottom: 1px solid rgb(220, 219, 219);
 }
+.unStyle{
+    text-decoration: none;
+    color: black;
+}
+@media (max-width:1400px) {
+    .sideBarDetail{
+        display: none;
+    }
+    .sideBar{
+        display: none;
+    }
+    
+}

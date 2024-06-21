@@ -14,3 +14,33 @@
  .smallText{
     font-size: 12px;
  }
+ @media (max-width:914px) {
+    .borderDiv{
+        visibility: hidden;
+    }
+    .videoHistory{
+        margin-top: 50px;
+    }
+    .shortsDescription{
+        font-size: 10px;
+    }
+ }
+ @media (max-width:768px) {
+    .shortsDescription{
+        font-size: 1.5rem;
+    }
+    .clearHistoryBtn{
+        visibility: hidden;
+    }
+    
+ }
+ @media (max-width:576px) {
+    .shortsDescription{
+        font-size: 1rem;
+    }
+ }
+ @media (max-width:1011px) {
+    .historySetFont{
+        font-size: 10px;
+    }
+ }
