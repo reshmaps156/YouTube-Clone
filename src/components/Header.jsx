@@ -24,7 +24,7 @@ function Header() {
          
             <div className='d-flex '>
                   <FontAwesomeIcon icon={faBars}  className='me-4 ms-3 fa-xl m-2 barIcon'/>
-                  <img src="./src/Media/youtube.png" alt="Youtube icon" className='brandIcon me-1 m-1' />
+                  <img src="https://cdn-icons-png.flaticon.com/256/1384/1384060.png" alt="Youtube icon" className='brandIcon me-1 m-1' />
                   <Navbar.Brand href="#" className='brandName fs-4 '>YouTube<sup className='superText'>IN</sup></Navbar.Brand>
             </div>
             <div className=' d-flex searchBar'>
