@@ -1,0 +1,45 @@
+:root{
+    --purplebtn :#7c5356 ;
+    --pearlwhite:#fff;
+}
+*{
+    box-sizing: border-box;
+}
+.smallTxt{
+    font-size: 12px;
+}
+.purplebg{
+    background:linear-gradient(#7d4d4b,#88544e,#65313f);
+}
+.btnIcon{
+    background-color: var(--purplebtn);
+    border: 1px solid #764c52;
+    border-radius: 50%;
+    color:var(--pearlwhite);
+    
+}
+.shuffle{
+    background-color: var(--purplebtn);
+    border: 0;
+    color: var(--pearlwhite);
+    font-size: 13px;
+}
+.play{
+    background-color: var(--pearlwhite);
+    border: 0;
+    font-size: 13px;
+}
+.msgAtTop{
+    background-color: #f2f2f2;
+}
+@media (max-width:768px) {
+    .centerText{
+        text-align: center;
+    }
+    .hidden{
+        visibility: hidden;
+    }
+    
+    
+    
+}
